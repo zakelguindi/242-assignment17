@@ -1,0 +1,54 @@
+:root {
+  --background: #d8b6b624; 
+  /* --textcolor: #BFA181; */
+  --textcolor: rgb(162, 12, 12); 
+}
+
+body {
+  background-color: var(--background);
+  color: var(--textcolor); 
+  font-family: 'Lato', sans-serif;
+}
+#nba-teams-div {
+  display: inline;
+}
+
+h1 {
+  font-size: 40pt;
+  text-decoration: underline;
+}
+
+.columns {
+  display: flex; 
+  flex-wrap: wrap; 
+}
+
+.team {
+  padding: 10px; 
+  margin: 10px; 
+  background: lightblue; 
+  border-radius: 5px; 
+}
+
+/* dialog/content stuff */
+.dialog {
+  background-color: rgb(193, 53, 193); 
+  margin: auto; 
+  padding: 15px; 
+  border: 1px solid blue; 
+  width: 50%; 
+}
+
+/* close button */
+.close {
+  color: #aaaaaa; 
+  float: right; 
+  font-size: 30px;
+
+}
+
+/* typing */
+
+.transparent {
+  opacity: 0; 
+}

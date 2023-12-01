@@ -1,0 +1,66 @@
+<!-- 6 objects, 6 properties for each obj, 1 of them is an array -->
+<!-- be able to add items -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>NBA Teams</h1>
+    <a href="#" id="add-link">+</a>
+  </header>
+
+  <section class = "columns">
+    <div class="columns two-columns">
+      <div id="nba-teams-div" class="columns"></div>
+      <div id="teams-details-column">
+          <h2>Details</h2>
+
+          <div id="teams-details"></div>
+      </div>
+  </div>
+
+    <div id="add-edit-teams" class="dialog transparent">
+      <span class="close">&times;</span>
+
+      <h3 id="add-edit-title">Add Team</h3>
+      <form id="add-edit-team-form" method="post">
+        <input type="text" name="_id" value="-1" />
+        <p>
+          <label for="name">Team Name</label>
+          <input type="text" id="name" name="name" required />
+        </p>
+        <p>
+          <label for="city">City/State</label>
+          <input type="text" id="city" name="city" required />
+        </p>
+        <p>
+          <label for="arena">Arena</label>
+          <input type="text" id="arena" name="arena" />
+        </p>
+        <p>
+          <label for="bestPlayer">Best Player</label>
+          <input type="text" id="bestPlayer" name="bestPlayer" />
+        </p>
+        <p>
+          <label for="titleswon">Titles Won</label>
+          <input type="number" id="titleswon" name="titlesWon" />
+        </p>
+        <p id="starting5-p">
+          <label class="inline">Starting 5</label>
+          <a href="#" id="add-player">Add Player</a>
+          <section id="player-boxes"></section>
+        </p>
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>

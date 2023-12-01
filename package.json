@@ -1,0 +1,25 @@
+{
+  "name": "242-assignment16",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "init": "^0.1.2",
+    "joi": "^17.11.0",
+    "mongoose": "^8.0.2",
+    "multer": "^1.4.5-lts.1",
+    "node": "^21.1.0",
+    "require": "^0.4.4",
+    "server.js": "^1.0.0",
+    "yarn": "^1.22.21"
+  },
+  "description": ""
+}
