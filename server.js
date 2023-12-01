@@ -32,8 +32,6 @@ const teamSchema = new mongoose.Schema({
 
 const Team = mongoose.model("Team", teamSchema); 
 
-// let nbateams = [
-
 
 app.get("/api/nbateams", (req, res) => {
   getTeams(res); 
